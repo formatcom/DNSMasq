@@ -33,3 +33,16 @@ address=/.vinicio.com/192.168.0.10
 
 $ sudo systemctl restart NetworkManager
 ~~~
+
+
+~~~
+### y lo mas importante estudiar el trafico
+
+$ sudo tcpdump -ni wlp2s0 udp port 53
+
+### buscamos a google
+$ dig google.com
+
+### ahora a mi :3
+$ dig vinicio.com
+~~~
